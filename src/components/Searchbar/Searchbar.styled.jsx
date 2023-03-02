@@ -24,7 +24,7 @@ export const SearchButton = styled.button`
   }
 `;
 
-export const StyledForm = styled(Form)`
+export const StyledForm = styled.form`
   display: flex;
   align-items: center;
   width: 100%;
@@ -38,7 +38,7 @@ export const StyledForm = styled(Form)`
   overflow: hidden;
 `;
 
-export const Input = styled(Field)`
+export const Input = styled.input`
   display: inline-block;
   width: 100%;
   font: inherit;
